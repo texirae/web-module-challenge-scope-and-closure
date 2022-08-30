@@ -29,9 +29,9 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   
   Study the code for counter1 and counter2, then answer the questions below.
   
-  1. What is the difference between counter1 and counter2?
+  1. What is the difference between counter1 and counter2? In counter1 the count variable is local, whereas in counter 2 it is global.
   
-  2. Which of the two uses a closure? How can you tell?
+  2. Which of the two uses a closure? How can you tell? Counter1 because it returns the counter function.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
