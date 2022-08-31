@@ -33,8 +33,7 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   
   2. Which of the two uses a closure? How can you tell? Counter1 because it returns the counter function.
   
-  3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+  3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better?  Counter1 would be preferable if you wanted it to remember the returned output and build off of that. Counter2 would be preferable if you needed to reset back to the orginal count value.
 */
 
 // counter1 code
